@@ -10,6 +10,6 @@ int main ()
   {
     printf("\ta (%d) es mayor a b (%d).\n",a,b);
   }
-  printf("\t El programa sigue su flujo.\n");
+  printf("\t Fin del programa.\n");
   return 0;
 }
