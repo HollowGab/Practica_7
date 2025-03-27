@@ -1,19 +1,20 @@
 //Arellanes Aniceto Gabriel
 // ejercicio2
+// Programa que valida si un numero es par o impar
 #include<stdio.h>
 int main ()
 {
-  int a, b;
-  a = 3;
-  b = 2;
-  if(a > b)
+  int N;
+  printf("Dame un numero:");
+  scanf("%i",&N);
+  if(N%2 == 0)
   {
-    printf("\ta (%d) es mayor a b (%d).\n",a,b);
+    printf("El numero que ingresaste (%d) es par.\n",N);
   }
   else
   {
-    
+    printf("El numero que ingresaste (%d) es impar.\n",N);
   }
-  printf("\t El programa sigue su flujo.\n");
+  printf("\t Fin del programa.\n");
   return 0;
 }
