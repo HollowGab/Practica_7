@@ -4,8 +4,8 @@
 int main ()
 {
   int a, b;
-  a = 3;
-  b = 2;
+  a = 8;
+  b = 5;
   if(a > b)
   {
     printf("\ta (%d) es mayor a b (%d).\n",a,b);
