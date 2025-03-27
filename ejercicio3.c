@@ -9,11 +9,18 @@ void main ()
   printf("Menu\n  1. Suma\n 2. Resta\n 3. Multiplicacion\n 4. Division\n 5. Raiz Cuadrada\n 6. Potencia\n 0. Salir\n");
   printf("Selecciona la operacion que quieres realizar: ");
   scanf (%i,&op);
+  while (op>0 || op<6)
+    {
   switch(op)
   {
     case 1;
-     printf("SUMA \n");
-    printf ("Dame
+    printf("SUMA \n");
+    printf("Dame un numero:");
+    scanf("%i",&a);
+    printf("Dame otro numero:");
+    scanf("%i",&b);
+    res = a+b;
+    printf("El resultado es: %d",
     
     break;
     case 2;
@@ -39,4 +46,5 @@ void main ()
     scanf (%i,&op);
   }
  printf("\t Fin del programa.\n");
+    }
 }
