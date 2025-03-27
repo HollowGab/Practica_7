@@ -1,5 +1,6 @@
 //Arellanes Aniceto Gabriel
 // ejercicio1
+//Programa que valida si "a" es mayor a "b"
 #include<stdio.h>
 void main ()
 {
