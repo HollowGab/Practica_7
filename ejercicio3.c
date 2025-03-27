@@ -6,20 +6,37 @@ void main ()
   int a, b;
   int op;
   int res;
-  
-  switch()
+  printf("Menu\n  1. Suma\n 2. Resta\n 3. Multiplicacion\n 4. Division\n 5. Raiz Cuadrada\n 6. Potencia\n 0. Salir\n");
+  printf("Selecciona la operacion que quieres realizar: ");
+  scanf (%i,&op);
+  switch(op)
   {
     case 1;
+     printf("SUMA \n");
+    printf ("Dame
     
     break;
     case 2;
-
+     printf("RESTA \n");
     break;
     case 3;
-
-    break;
+     printf("MULTIPLICACION \n");
     
+    break;
+    case 4;
+     printf("DIVISION \n");
+    break;
+    case 5;
+     printf("RAIZ CUADRADA \n");
+    break;
+    case 6;
+     printf("POTENCIA \n");
+    break;
     default:
+     printf("Opcion no valida\n ");
+    printf("Menu\n  1. Suma\n 2. Resta\n 3. Multiplicacion\n 4. Division\n 5. Raiz Cuadrada\n 6. Potencia\n 0. Salir\n");
+    printf("Selecciona la operacion que quieres realizar: ");
+    scanf (%i,&op);
   }
  printf("\t Fin del programa.\n");
 }
