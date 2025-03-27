@@ -1,11 +1,12 @@
 //Arellanes Aniceto Gabriel
 // ejercicio1
 #include<stdio.h>
-int main ()
+void main ()
 {
   int a, b;
-  a = 3;
-  b = 2;
+  int op;
+  int res;
+  
   switch()
   {
     case 1;
@@ -20,6 +21,5 @@ int main ()
     
     default:
   }
-
-  return 0;
+ printf("\t Fin del programa.\n");
 }
