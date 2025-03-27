@@ -1,15 +1,18 @@
 //Arellanes Aniceto Gabriel
 // ejercicio1
 #include<stdio.h>
-int main ()
+void main ()
 {
   int a, b;
-  a = 8;
-  b = 5;
+  
+  printf("Dame un numero:");
+  scanf("%i",&a);
+  printf("Dame otro numero:");
+  scanf("%i",&b);
   if(a > b)
   {
-    printf("\ta (%d) es mayor a b (%d).\n",a,b);
+    printf("a (%d) es mayor a b (%d).\n",a,b);
   }
-  printf("\t Fin del programa.\n");
-  return 0;
+  printf("Fin del programa.\n");
 }
+
